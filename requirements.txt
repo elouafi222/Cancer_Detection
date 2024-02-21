@@ -39,7 +39,7 @@ libclang==16.0.6
 Markdown==3.5.2
 MarkupSafe==2.1.5
 ml-dtypes==0.2.0
-msgpack==1.0.7
+msgpack
 numpy==1.26.4
 oauthlib==3.2.2
 opt-einsum==3.3.0
