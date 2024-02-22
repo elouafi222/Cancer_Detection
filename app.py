@@ -14,7 +14,7 @@ def get_Pdf():
     if request.method == "POST":
         data = request.get_json()
         nameImg = data.get("nameImg")
-        imgpath = "/img/" + nameImg
+        imgpath = "img/" + nameImg
         # imgpath = "/img/img1.jpg"
         objFire = StorageImgFirebase()
         urlimg = objFire.DownloadUrl(imgpath)
